@@ -1,4 +1,4 @@
-# [ADAPT Stripe](https://github.com/SU-SWS/adapt-stripe)
+# [ADAPT Next Starter](https://github.com/SU-SWS/adapt-stripe)
 
 
 Description
