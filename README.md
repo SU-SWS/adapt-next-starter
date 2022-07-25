@@ -22,8 +22,8 @@ npm run dev
 ## Vault
 
 Vault source paths:
-- 'secret/data/projects/adapt/stripe'
-- 'secret/data/projects/adapt/certs'
+- 'secret/data/projects/adapt/[vault folder name]'
+- 'secret/data/projects/adapt/saml'
 
 Environment variables are stored (and versioned) in vault.stanford.edu. You can fetch them and have them written to `.env` by running `npm run vault`. You will need to add the vault role id and vault secret into the `.env` file first. You can likely find those values in the Netlify environment variables UI. If you can't find them. Please ask another developer.
 
