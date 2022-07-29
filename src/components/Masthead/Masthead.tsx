@@ -25,7 +25,7 @@ export const Masthead = () => {
             <Lockup text="Pass" />
           </div>
           <span className={styles.directoryLogo}>
-            Directory
+            Next Starter
           </span>
         </Link>
         <FlexBox alignItems="center">

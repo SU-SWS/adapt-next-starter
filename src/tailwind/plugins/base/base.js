@@ -1,5 +1,5 @@
 /**
- * Directory custom base styles
+ * Custom base styles
  */
 
 module.exports = function () {
