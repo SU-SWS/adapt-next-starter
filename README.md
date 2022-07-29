@@ -1,4 +1,4 @@
-# [ADAPT Next Starter](https://github.com/SU-SWS/adapt-stripe)
+# [ADAPT Next Starter](https://github.com/SU-SWS/adapt-next-starter)
 
 Next starter app
 
@@ -8,13 +8,13 @@ TODO
 
 ## Checklist
 
-- [] React-Redux
-- [] Netlify Config
-- [] Adapt-sdk-auth
-- [] Material UI v5
-- [] Decanter v7
-- [] Tailwind
-- [] Eslint
+- [ ] React-Redux
+- [ ] Netlify Config
+- [ ] Adapt-sdk-auth
+- [ ] Material UI v5
+- [ ] Decanter v7
+- [ ] Tailwind
+- [ ] Eslint
 
 ## Configuration
 
