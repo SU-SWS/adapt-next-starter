@@ -88,6 +88,14 @@ To add codeclimate checks log in to codeclimate and add your repository with `de
 Go the codeclimate repo settings and install the Github pull request status updates. Now go back to Github
 and make sure `codeclimate` is added to required Status Checks for the `dev` branch protection settings.
 
+### Additional Documentation
+
+- [Authentication](docs/Auth/Auth.md)
+- [Localhost Setup](docs/Environments/Localhost.md)
+- [Netlify](docs/Environments/Netlify.md)
+- [Preview Builds](docs/Environments/PreviewBuilds.md)
+
+
 Contribution / Collaboration
 ---
 

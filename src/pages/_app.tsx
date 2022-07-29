@@ -1,10 +1,21 @@
 import React from 'react';
-import '../styles/globals.css';
 import type { AppProps } from 'next/app';
+import { Provider } from 'react-redux';
+import { store } from '../redux/store';
+import { Authenticator } from '../components/auth/Authenticator';
+import Layout from '../components/Layout';
+import '../styles/global.css';
 
-// The Provider (redux), Authenticator (WebAuth/Stanford Pass),
-// Google Analytics, Layout, and Component usually goes here.
-
-const MyApp = ({ Component, pageProps }: AppProps) => <Component {...pageProps} />;
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <Provider store={store}>
+      <Authenticator>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </Authenticator>
+    </Provider>
+  );
+}
 
 export default MyApp;
