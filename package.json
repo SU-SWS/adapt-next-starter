@@ -11,11 +11,33 @@
     "lint:fix": "eslint \"src/**/*.{ts,tsx,js,jsx}\" --quiet --fix"
   },
   "dependencies": {
+    "@babel/runtime": "^7.18.9",
+    "@date-io/date-fns": "^2.14.0",
+    "@heroicons/react": "^1.0.6",
     "@reduxjs/toolkit": "^1.8.3",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "adapt-auth-sdk": "^1.0.7",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cnbuilder": "^3.1.0",
+    "cookie": "^0.5.0",
+    "core-js": "^3.24.0",
+    "dotenv": "^16.0.1",
+    "dotenv-webpack": "^8.0.0",
+    "eslint-config-standard-jsx": "^11.0.0",
+    "express": "^4.18.1",
+    "js-cookie": "^3.0.1",
     "next": "12.2.3",
+    "next-connect": "^0.13.0",
+    "node-vault": "^0.9.22",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.7.4"
+    "react-idle-timer": "^5.4.1",
+    "regenerator-runtime": "^0.13.9",
+    "serverless-http": "^3.0.1",
+    "typescript": "4.7.4",
+    "url-parse": "^1.5.10"
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
@@ -25,6 +47,8 @@
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "autoprefixer": "^10.4.8",
     "babel-eslint": "^10.1.0",
     "eslint": "8.20.0",
     "eslint-config-airbnb": "^19.0.4",
@@ -37,6 +61,7 @@
     "eslint-plugin-react": "^7.30.1",
     "netlify-cli": "^10.11.2",
     "netlify-plugin-vault-variables": "^1.0.6",
+    "postcss": "^8.4.14",
     "tailwindcss": "^3.0.24"
   }
 }

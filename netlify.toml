@@ -4,29 +4,10 @@
   command = "npm run build"
   publish = ".next"
 
-# To support 
-[build.environment]
-NEXT_USE_NETLIFY_EDGE = "true"
-
 [dev]
   publish = ".next"
   port = 64946
   autolaunch = true
-
-# HEADERS - BASIC AUTH
-# ##############################################################################
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"
-    Content-Security-Policy = "form-action https:"
-    X-Content-Type-Options = "nosniff"
-    Referrer-Policy = "origin-when-cross-origin"
-    Strict-Transport-Security = "max-age=2592000"
-    Permissions-Policy = "vibrate=(), geolocation=(), midi=(), notifications=(), push=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=()"
-    X-Robots-Tag = "noindex, nofollow"
-    X-Frame-Options = "DENY"
-
 
 # PLUGINS
 # ##############################################################################
@@ -42,3 +23,17 @@ NEXT_USE_NETLIFY_EDGE = "true"
     # Set which environment variables to use for the approle login
     secretId = 'VAULT_SECRET_ID'
     roleId = 'VAULT_ROLE_ID'
+
+# HEADERS - BASIC AUTH
+# ##############################################################################
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Content-Security-Policy = "form-action https:"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=2592000"
+    Permissions-Policy = "vibrate=(), geolocation=(), midi=(), notifications=(), push=(), microphone=(), camera=(), magnetometer=(), gyroscope=(), speaker=()"
+    X-Robots-Tag = "noindex, nofollow"
+    X-Frame-Options = "DENY"
